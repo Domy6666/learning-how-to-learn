@@ -1,0 +1,25 @@
+.section__title{
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.section__subtitle{
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
