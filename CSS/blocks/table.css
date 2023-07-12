@@ -1,21 +1,25 @@
+
 .table{
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  row-gap: 80px;
+  column-gap: 30px;
   position: relative;
   z-index: 2;
   list-style-type: none;
+  padding-top: 80px;
 }
 
 .table__cell{
-  width: 17%;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-top: 80px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+  row-gap: 10px;
 }
 
 .table__heading{
@@ -28,8 +32,9 @@
 }
 
 .table__text{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 18px;
   line-height: 1.2;
+  width: 100%;
 }

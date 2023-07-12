@@ -3,8 +3,11 @@
 @import url(CSS/blocks/footer.css);
 @import url(CSS/blocks/header.css);
 @import url(CSS/blocks/kaufman.css);
+@import url(CSS/blocks/logo.css);
+@import url(CSS/blocks/oakley.css);
 @import url(CSS/blocks/section.css);
 @import url(CSS/blocks/table.css);
 @import url(CSS/blocks/two-columns.css);
+@import url(CSS/modificators.css);
 @import url(CSS/normalize.css);
 @import url(CSS/style.css);
