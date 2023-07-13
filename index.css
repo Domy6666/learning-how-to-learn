@@ -1,12 +1,17 @@
+@import url(CSS/blocks/cards.css);
 @import url(CSS/blocks/content.css);
 @import url(CSS/blocks/description.css);
+@import url(CSS/blocks/feynman.css);
 @import url(CSS/blocks/footer.css);
 @import url(CSS/blocks/header.css);
 @import url(CSS/blocks/kaufman.css);
 @import url(CSS/blocks/logo.css);
 @import url(CSS/blocks/oakley.css);
+@import url(CSS/blocks/resourses.css);
+@import url(CSS/blocks/rotation.css);
 @import url(CSS/blocks/section.css);
 @import url(CSS/blocks/table.css);
+@import url(CSS/blocks/techniques.css);
 @import url(CSS/blocks/two-columns.css);
 @import url(CSS/modificators.css);
 @import url(CSS/normalize.css);

@@ -1,9 +1,12 @@
-.title_color_white{
-  color: white;
-  position: relative;
-  z-index: 2;
+.logo_place_header{
+  position: absolute;
+  z-index: 1;
+  left: 64px;
+  top: 30px;
+  background-image: url(../images/logo_place_header.png);
 }
-.subtitle_color_white{
+.title_color_white,
+.subtitle_color_white {
   color: white;
   position: relative;
   z-index: 2;
@@ -11,11 +14,4 @@
 .logo_place_footer{
   margin: 0;
   background-image: url(../images/logo_place_footer.png);
-}
-.logo_place_header{
-  position: absolute;
-  z-index: 1;
-  left: 64px;
-  top: 30px;
-  background-image: url(/images/logo_place_header.png);
 }

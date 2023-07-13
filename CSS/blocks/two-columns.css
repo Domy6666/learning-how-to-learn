@@ -1,15 +1,18 @@
+
 .two-columns{
-  margin: auto;
-  padding-top: 100px;
+  margin: 0 auto;
+  padding: 0;
   width: 80%;
+  padding: 100px 10%;
   display: flex;
   justify-content: space-between;
+  min-width: 784px;
 }
 
 .two-columns__brief{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  width: 20%;
+  width: 175px;
   line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
@@ -17,7 +20,9 @@
 }
 
 .two-columns__main-text{
-  width: 75%;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
 }
 
 .two-columns__paragraph{

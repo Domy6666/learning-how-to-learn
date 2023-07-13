@@ -1,4 +1,6 @@
 .header {
+  margin: 0 auto;
+  padding: 0;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -6,10 +8,10 @@
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
-
 .header__title{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 102px;
   line-height: 96px;
@@ -32,6 +34,8 @@
 }
 
 .header__link{
+  margin: 0 auto;
+  padding: 0;
   text-decoration: none;
   color: #2f80ed;
   margin: 0 auto;
@@ -40,7 +44,14 @@
   line-height: 25px;
 }
 
+.header__link:hover {
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
 .header__square-pic{
+  margin: 0 auto;
+  padding: 0;
   height: 80%;
   width: 40%;
   position: absolute;
@@ -51,6 +62,8 @@
 }
 
 .header__main-illustration{
+  margin: 0 auto;
+  padding: 0;
   position: absolute;
   bottom: 0;
   right: 0;
