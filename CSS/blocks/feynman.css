@@ -1,5 +1,4 @@
 .feynman{
-  position: relative;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -9,6 +8,7 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   padding-top: 100px;
+  position: relative;
 }
 
 .feynman__title{

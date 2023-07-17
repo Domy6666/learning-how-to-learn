@@ -52,8 +52,8 @@
 .header__square-pic{
   margin: 0 auto;
   padding: 0;
-  height: 80%;
-  width: 40%;
+  height: 568px;
+  width: 568px;
   position: absolute;
   right: 0;
   top: 64px;
@@ -67,6 +67,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 90vh;
+  height: 608px;
+  width: 765px;
   z-index: 0;
 }
