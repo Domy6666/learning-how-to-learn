@@ -6,7 +6,7 @@ The "How to learn" project was created during my studying at the [Palianytsia Ga
 
 ## Technologies
 
-HTML5 | CSS3 | BEM Methodology, File Structure and File Paths (Nested BEM) | CSS Animations
+HTML5 | CSS3 | BEM Methodology, File Structure and File Paths (BEM Nested) | CSS Animations
 
 ```bash
 # Clone the repository
