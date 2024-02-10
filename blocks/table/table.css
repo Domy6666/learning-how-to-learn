@@ -1,0 +1,10 @@
+.table{
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  row-gap: 80px;
+  column-gap: 30px;
+  position: relative;
+  z-index: 2;
+  list-style-type: none;
+  padding-top: 80px;
+}

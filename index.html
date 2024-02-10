@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Learning how to learn</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
       <p class="header__subtitle">
         The most effective, cutting-edge learning
         techniques that you can apply to your daily life <br>
-        <a href="#description-section"  class="link header__link">
+        <a href="" target="_blank" class="header__link">
           Learn more &rarr;
         </a>
       </p>
@@ -23,7 +24,7 @@
       <img src="images/header-image.png" alt="" class="header__main-illustration">
     </header>
     <main class="content">
-      <section id="description-section" class="two-columns">
+      <section class="two-columns">
         <h2 class="two-columns__brief">
           The main problem with education
         </h2>
@@ -51,10 +52,10 @@
         </div>
       </section>
       <section class="techniques">
-        <h2 class="section__title title_color_black">
+        <h2 class="section-title">
           Learning Techniques
         </h2>
-        <p class="section__subtitle subtitle_color_black">
+        <p class="section-subtitle">
           Five Strategies from Barbara Oakley
         </p>
         <div class="cards">
@@ -127,16 +128,29 @@
           </p>
         </div>
       </section>
-      <section class="feynman feynman_background_image">
+      <section class="feynman">
         <h2 class="feynman__title">The Feynman Technique</h2>
         <p class="feynman__subtitle">Learn without forgetting</p>
-        <a href="https://fs.blog/feynman-learning-technique/" target="_blank" class="link feynman__link">More &rarr;</a>
+        <a href="https://fs.blog/feynman-learning-technique/" target="_blank" class="feynman__link">More &rarr;</a>
+      </section>
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <blockquote class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge to be successful in school, careers and life.</blockquote>
+          <cite class="khan__quote-author">George Lucas</cite>
+          <p class="khan__quote-author-subline">Filmmaker</p>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/khan-book.png" alt="A picture of the book The One World Schoolhouse by Salman Khan - founder of the Khan Academy">
+            <a class="link khan__buy-link" href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373" target="_blank">Buy book &rarr;</a>
+          </div>
+        </div>
       </section>
       <section class="kaufman">
-        <h2 class="section__title">
+        <h2 class="section-title section-title_theme_dark section-title_place_kaufman">
           Ten principles of rapid skill acquisition
         </h2>
-        <p class="section__subtitle">
+        <p class="section-subtitle section-subtitle_theme_dark section-subtitle_place_kaufman">
           by Josh Kaufman
         </p>
         <ul class="table">
@@ -184,26 +198,25 @@
         <img src="images/kaufman-triangle.svg" alt="" class="kaufman__triangle rotation">
       </section>
       <section class="resources">
-        <h2 class="section__title title_color_black">
+        <h2 class="section-title">
           Useful resources
         </h2>
-        <p class="section__subtitle subtitle_color_black">
+        <p class="section-subtitle">
           Further materials on learning techniques and hacks.
         </p>
-        <div class="resources__logo-zone">
-          <a href="" target="_blank"><img src="images/resources-tedED.png" class="resources__logo-image" alt=""></a>
-          <a href="" target="_blank"><img src="images/resources-Medium.png" class="resources__logo-image" alt=""></a>
-          <a href="" target="_blank"><img src="images/resources-dezeen.png" class="resources__logo-image" alt=""></a>
-          <a href="" target="_blank"><img src="images/resources-goodreads.png" class="resources__logo-image" alt=""></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__link"><a href="https://ed.ted.com/search?qs=learning+techniques+and+hacks" target="_blank"><img src="images/resources-tedED.png" class="resources__logo-image" alt=""></a></li>
+          <li class="resources__link"><a href="https://knottedbrains.medium.com/top-learning-hacks-to-learn-more-efficiently-effectively-e076989986bb" target="_blank"><img src="images/resources-Medium.png" class="resources__logo-image" alt=""></a></li>
+          <li class="resources__link"><a href="https://www.dezeen.com/" target="_blank"><img src="images/resources-dezeen.png" class="resources__logo-image" alt=""></a></li>
+          <li class="resources__link"><a href="https://www.goodreads.com/book/show/49537956-studying-techniques" target="_blank"><img src="images/resources-goodreads.png" class="resources__logo-image" alt=""></a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__content">
         <div class="logo logo_place_footer"></div>
         <p class="footer__author">
-          &copy; 2023 Dovhal Mykhailo
-        </p>
+          &copy; 2023 Dovhal Mykhailo</p>
       </div>
     </footer>
   </div>
